@@ -1,0 +1,105 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    background-color: #27476e;
+}
+
+#heading
+{
+    font-size: 5vh;
+    color:khaki;
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: underline;
+    font-family: cursive;
+    text-shadow: 1px 1px 0.5px black;
+}
+
+#gameZone
+{
+    height: 50vh;
+    width: 75vw;
+    background-color: #006992;
+    margin-left: 12.5vw;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#grid
+{
+    height: 90%;
+    width: 30%;
+    border-radius: 5%;
+    /* background-color: #006992; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.inner
+{
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+    color: #eaf8bf;
+    padding-top: 10px;
+    background-color: #75B1A9;
+    height: 30%;
+    width: 30%;
+    border-radius: 5%;
+    border: 2px solid transparent;
+    box-shadow: 4px 4px 2px black;
+}
+
+#resetButton
+{
+    padding: 7px;
+    color: whitesmoke;
+    background-color: black;
+    margin-left: 47vw;
+    margin-top: 5vh;
+    border-radius: 3px;
+    border: none;
+}
+
+#newButton
+{
+    margin-top: 10vh;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 3px;
+    border: none;
+    font-size: 5vh;
+}
+
+#msgContainer
+{
+    height: 100vh;
+    text-align: center ;
+    
+}
+
+#msg
+{
+    margin-top: 40vh;
+    color: khaki;
+    font-family: fantasy;
+    font-size: 5vh;
+}
+
+.hide
+{
+    display: none;
+}
+
